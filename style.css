@@ -221,7 +221,7 @@ justify-content: space-between;
 }
 
 .libro-imagen-1, .libro-imagen-2, .libro-imagen-3 {
-  background: url(/img/libro1.jpg) no-repeat center center;
+  background: url(img/libro1.jpg) no-repeat center center;
  background-size: cover;
 
   height: 30rem;
