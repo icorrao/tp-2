@@ -201,7 +201,6 @@ input[type="search"]:focus {
   position: absolute;
   top: -12%;
   left: 215%;
-  /* transform: translate(-50%, -50%); */
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -304,3 +303,42 @@ input[type="search"]:focus {
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
+
+.libros-biograficos-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.libro-biografico {
+  padding: 3rem;
+  border: 8px solid var(--amarillo);
+  scale: 80%;
+  max-height: fit-content;
+}
+
+.libro-biografico img {
+  scale: 80%;
+}
+
+.secundario {
+  scale: 70%;
+  opacity: 0.5;
+}
+
+.puntos-contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.punto-biografico {
+  border-radius: 50%;
+  color: var(--amarillo);
+  background-color: var(--amarillo);
+  width: 1rem;
+  height: 1rem;
+}
+
